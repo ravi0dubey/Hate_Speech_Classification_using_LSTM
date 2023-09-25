@@ -1,6 +1,7 @@
-# LSTM_IMDB_Reviews_Sentiment_Analysis
+# Hate Speech Classification using LSTM
 
-Below is the architecture of **LSTM (Long Short Term Memory)** </br>
+Before we start Hate Speech details lets talk about the architecture of **LSTM (Long Short Term Memory)** </br>
+
 ![image](https://github.com/ravi0dubey/LSTM_IMDB_Reviews_Sentiment_Analysis/assets/38419795/b0985854-9e68-4583-aa59-07d3a1c4418c)
  
  It is neural network which has three componenents/boxes and each box has different functionality. Once the input sequence is passed from three boxes then the output generated is feeded again as input.
