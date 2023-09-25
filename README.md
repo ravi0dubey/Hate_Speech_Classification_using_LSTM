@@ -19,6 +19,12 @@ Before we start Hate Speech details lets talk about the architecture of **LSTM (
  **Input or Memory Gate** -> It takes input from the corpus and then apply **sigmoid** activation on top of it. It also applies **tanh** activation on top of input. tanh activation output ranges from -1 to 1. Output of both the activation are **multiplied**. Purpose is to determine how much of _input context needs to be stored in the memory channel_. Reason is we donot need to remember entire text to determine the analysis we are doing on the text. If the combined output of both the channels are closer to 0 then it will save lesser context in the memory channel while if the output is closer to 1 then it will save more in the memory channel.</br>
  
  **Output Gate** -> It takes input from the input from the corpus and then apply **sigmoid activation** on top of it. It takes input from the memory channel and apply **tanh activation** on top of it. Output of both channels are multiplied to give the output. </br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
 
 
  **Dataset for Hate Speech** </br>
@@ -36,6 +42,7 @@ Before we start Hate Speech details lets talk about the architecture of **LSTM (
  
  
  
+
 
 
 
