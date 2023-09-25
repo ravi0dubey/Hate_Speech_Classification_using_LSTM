@@ -20,6 +20,19 @@ Before we start Hate Speech details lets talk about the architecture of **LSTM (
  
  **Output Gate** -> It takes input from the input from the corpus and then apply **sigmoid activation** on top of it. It takes input from the memory channel and apply **tanh activation** on top of it. Output of both channels are multiplied to give the output. </br>
 
+
+ **Dataset for Hate Speech**
+ ![image](https://github.com/ravi0dubey/Hate_Speech_Classification_using_LSTM/assets/38419795/65b11eaf-43ef-4d59-8379-d25e666d22d7)
+
+ ![image](https://github.com/ravi0dubey/Hate_Speech_Classification_using_LSTM/assets/38419795/a33ba9c8-216d-458b-a498-76dda93b678e)
+
+ ![image](https://github.com/ravi0dubey/Hate_Speech_Classification_using_LSTM/assets/38419795/af00b244-1782-40c5-b37a-b0f37009cfe8)
+ ![image](https://github.com/ravi0dubey/Hate_Speech_Classification_using_LSTM/assets/38419795/fa59574a-a322-48e9-8143-041e5c2b0452)
+
+
+
+
+
  
  
  
